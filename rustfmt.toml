@@ -1,0 +1,4 @@
+tab_spaces = 2
+brace_style = "PreferSameLine"
+control_brace_style = "AlwaysSameLine"
+
