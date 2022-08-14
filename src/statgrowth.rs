@@ -30,6 +30,7 @@ macro_rules! mainstat {
 
 pub const FLOWER_MAIN: MainStatGrowth = mainstat!(HealthFlat, 717.0, 203.0 + 3.0 / 20.0);
 pub const PLUME_MAIN: MainStatGrowth = mainstat!(AttackFlat, 47.0, 13.2);
+#[allow(dead_code)]
 pub const SANDS_MAIN: [MainStatGrowth; 5] = [
   mainstat!(Health, 7.0, 1.98),
   mainstat!(Attack, 7.0, 1.98),
@@ -37,6 +38,7 @@ pub const SANDS_MAIN: [MainStatGrowth; 5] = [
   mainstat!(ElemantalMastery, 28.0, 7.925),
   mainstat!(EnergyRecharge, 7.8, 2.2),
 ];
+#[allow(dead_code)]
 pub const GOBLET_MAIN: [MainStatGrowth; 5] = [
   mainstat!(Health, 7.0, 1.98),
   mainstat!(Attack, 7.0, 1.98),
@@ -44,6 +46,7 @@ pub const GOBLET_MAIN: [MainStatGrowth; 5] = [
   mainstat!(ElemantalMastery, 28.0, 7.925),
   mainstat!(ElemantalDamage, 7.0, 1.98),
 ];
+#[allow(dead_code)]
 pub const CIRCLET_MAIN: [MainStatGrowth; 7] = [
   mainstat!(Health, 7.0, 1.98),
   mainstat!(Attack, 7.0, 1.98),
@@ -101,6 +104,7 @@ macro_rules! substat {
   };
 }
 
+#[allow(dead_code)]
 pub const ALL_SUBSTATS: [SubStatGrowth; 10] = [
   substat!(Attack; 5.83),
   substat!(AttackFlat; 19.45),
