@@ -1,5 +1,7 @@
 # artifact-gen
-Simulated Artifact generation based on the artifacts in the game [Genshin Impact](https://genshin.hoyoverse.com/en/home)
+Simulated Artifact generation moduled after the artifacts in the game [Genshin Impact](https://genshin.hoyoverse.com/en/home)
+
+Data, which is not directly accessible, has been pulled from a [Community driven Wiki](https://genshin-impact.fandom.com/wiki/Artifacts).
 
 ## Building
 Simply run:
